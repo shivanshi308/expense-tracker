@@ -3,6 +3,8 @@ import './App.css'
 import { Balance } from './Components/Balance'
 import {Header} from './Components/Header'
 import {AccountDetail} from './Components/AccountDetail'
+import {TransactionList} from './Components/TransactionList'
+import {AddTransaction} from './Components/AddTransaction'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <div className='container'>
         <Balance/>
         <AccountDetail/>
+        <TransactionList/>
+        <AddTransaction/>
       </div>
     </div>
   );
