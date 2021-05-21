@@ -8,8 +8,8 @@ exports.getTransactions= async (req,res,next)=>{
    try{
         const transactions = await Transaction.find()
         res.status(200).json({
-            Success :true,
-            Data : transactions
+            success :true,
+            data : transactions
         })
    }
    catch(err){
